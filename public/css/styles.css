@@ -1,0 +1,157 @@
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Ubuntu;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.font-metal{
+    font-family: 'Metal Mania', cursive;
+}
+
+/* background colors */
+.bg-black{
+    background-color: #000000;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-darkred{
+    background-color: #8D0801;
+}
+.bg-grey{
+    background-color: #49494981;
+}
+
+/* font colors */
+.text-black{
+    color: rgb(0, 0, 0);
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-grey{
+    color: rgb(146, 146, 146);
+}
+a:hover {
+    text-shadow: #FFFFFF;
+    color: rgb(126, 1, 1);
+}
+
+.gradient{
+    background-image: radial-gradient(rgb(20, 20, 20), rgb(10, 10, 10));
+}
+
+/* Define Header class rules */
+.header{
+    width: 100%;
+    height: 360px;
+    background-color: orange;
+    overflow: hidden;
+    box-shadow: 0px 3px 18px 3px rgba(97, 97, 97, 0.9);
+}
+
+
+.navbar{
+    box-shadow: 0px 3px 18px 3px rgb(97, 97, 97);
+    height: 65px;
+}
+.backgroundimg{
+    background-image: url(../images/front_page_bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.content-container{
+    height: 100%;
+    width: 100%;
+}
+.titlecontainer{
+    height: 80%;
+    width: 100%;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 10rem;    
+}
+.albumcover{
+    border-radius: 100%;
+    box-shadow: 0px 3px 18px 3px rgb(167, 167, 167);
+    margin-left: 15%;
+    opacity: 70%;
+}
+.albumcover:hover, element:active {
+    box-shadow: 0px 3px 18px 3px rgb(221, 221, 221);
+    opacity: 100%;
+}
+
+.albumtitle{
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: #cacaca;
+}
+.albumsummary{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.albumcontainer{
+    margin-top: 20%;
+}
+.albumanchor{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* z index */
+.z1{
+    z-index: 1;
+}
+.z10{
+    z-index: 10;
+}
+.z15{
+    z-index: 15;
+}
+.z20{
+    z-index: 20;
+}
+.z25{
+    z-index: 25;
+}
+
+/* opacity */
+.contentopacity{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.opacity{
+    opacity: .6;
+}
+
+.opacity1{
+    opacity: 100%;
+}
+.smooth{
+    scroll-behavior: smooth;
+}

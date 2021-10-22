@@ -1,0 +1,30 @@
+{
+"albums": [{
+    "id": 0,  
+    "name":"Immortal",
+    "shortname": "immortal",
+    "publishDate":"2020",
+    "summary": "Immortal is the third studio album by American deathcore band Lorna Shore. The album is the band's label debut on Century Media. It is also their first studio release to not feature founding vocalist Tom Barber, who left the band to join Chelsea Grin. The album features vocals by CJ McCreery (originally of Pennsylvania-based act Signs of the Swarm), who joined the band in 2018 and was fired in December 2019, a month before the album's release date.",
+    "artwork":"/images/immortal.jpg",
+    "tracklist":["Immortal", "Death Portrait", "This is hell", "Hollow Sentence", "Warpath Of Disease", "Misery System", "Obsession", "King Ov Deception", "Darkest Spawn", "Relentless Torment"],
+    "spotify": "https://open.spotify.com/album/6NHzRTTezYzI2ET4I3MMLb?si=sbjR_f1tSGGTR6uCwySOQQ"
+},{   
+    "id": 1,
+    "name":"Flesh Coffin",
+    "shortname": "fleshcoffin",
+    "publishDate":"2017",
+    "summary": "Flesh Coffin was released on February 17. The album was produced by Carson Slovak and Grant McFarland at Atrium Audio, who are known for working alongside bands such as August Burns Red and Rivers of Nihil, among others.",
+    "artwork":"/images/fleshcoffin.jpg",
+    "tracklist":["Offering Of Fire", "Denounce The Light", "The Astral Wake Of Time", "Desolate Veil", "FVNERAL MOON", "Void", "Infernum", "The/Watcher", "Black Hollow", "Flesh Coffin"],
+    "spotify": "https://open.spotify.com/album/37il8kw4wzgua9mvGrEnad?si=io7_P8YxTL6JKwxmQrlGXQ"
+},{   
+    "id": 2,
+    "name":"Psalms",
+    "shortname": "psalms",
+    "publishDate":"2015",
+    "summary": "Psalms, their debut album was released on June 9 through Density Records. The album was produced by Fit for an Autopsy guitarist Will Putney at The Machine Shop.",
+    "artwork":"/images/psalms.jpg",
+    "tracklist":["Grimoire", "Harvest Of Realms", "Throne Of Worms", "White Noise", "From The Pale Mist", "Infernal Haunting", "Death Gowns", "Wretching In Torment", "Traces Of Supremacy", "Eternally Oblivion"],
+    "spotify": "https://open.spotify.com/album/3nck53gQdboBPz8OpDQYIX?si=6XO-GVFtQXiT41YPqZhJ5g"
+}]
+}
