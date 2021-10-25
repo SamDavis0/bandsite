@@ -18,28 +18,28 @@
         </div>
     </nav>
     <div class="content-container">
-        <div class="contentopacity position-absolute bg-black opacity d-flex justify-content-center align-items-center">
-            <div class="container">
-                <div class="row text-grey">
+        <div class="contentopacity position-absolute bg-black opacity d-flex justify-content-center overflow-scroll">
+            <div class="container z25 feedbackcontainer">
+                <div class="row text-grey feedbackcontainer2">
                     <div class="col-sm-4">
                         <h1 class="feedback-form-title">Leave a comment</h1>
                         <form class="feedback-form">
                             <div class="form-group">
                                 <label for="feedback-form-name">Name</label>
-                                <input style="background-color:rgba(128, 128, 128, 0.301);" type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
+                                <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
                             </div>
                             <div class="form-group">
                                 <label for="feedback-form-message">Message</label>
-                                <textarea style="background-color:rgba(128, 128, 128, 0.301);" type="text" placeholder="Enter your message, then hit the submit" class="form-control"
+                                <textarea type="text" placeholder="Enter your message, then hit the submit" class="form-control"
                                     id="feedback-form-message" rows="6"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-default pull-right text-white">Submit</button>
+                            <button type="submit" class="btn btn-default text-white submitbtn">Submit</button>
                         </form>
                     </div><!-- primary -->
                     <aside class="col-sm-8 bg-grey text-white">
                         <div class="maincontent feedback">
                             <h2 class="article-title text-center">Recent Feedback</h2>
-                            <div class="feedback-messages">
+                            <div class="feedback-messages overflow-hidden">
         
                             </div>
                         </div>
