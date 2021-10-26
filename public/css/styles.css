@@ -145,6 +145,19 @@ a:hover {
     padding-top: 20%;
 }
 
+.chat-display{
+    height: 100%;
+    width: 80%;
+    background-color: rgba(141, 141, 141, 0.301);
+    border-radius: 10px;
+}
+.panel-default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* z index */
 .z1{
     z-index: 1;
