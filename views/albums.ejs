@@ -41,7 +41,7 @@
                         <% if (showDetails == true) { %>
                             <div class="d-flex row singlealbumcontainer"> 
                             <div class="text-white z25 fs-5 text-center mt"> <%= albums[i].summary %> </div>
-                            <br>
+                            <i class="fas fa-grip-lines text-center text-white fs-3 z25"></i>
                             <h1 class="text-white z25">Songs</h1>
                             <% albums[i].tracklist.forEach((song) => { %>
                                 <li class=" text-white z25"><%= song %> </li>

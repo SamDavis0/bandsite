@@ -23,36 +23,36 @@
             
         </div>
         <div class="backgroundimg z15 d-flex align-items-center justify-content-center z20">
-            <div class="container z25">
+            <div class="container z25 mb-5">
                 <div class="row">
                     <div class="col-sm-12 ">
                         <article class="chat ps-5">
                             <header class="chat-header">
-                                <div class="h3 chat-title text-grey">Live Chat</div>
+                                <div class="h3 chat-title text-grey ms-5">Live Chat</div>
                             </header>
                             <form name="chatForm" class="form-horizontal chat-form">
-                                <div class="form-group ">
+                                <div class="form-group d-flex align-items-center">
                                     <label for="chat-username" class="col-sm-2 control-label text-white text-center">Name</label>
-                                    <div class="col-sm-8 ms-5">
+                                    <div class="col-sm-8 ms-5 p-1">
                                         <input type="text" class="form-control opacity" id="chat-username" required
                                             placeholder="Enter your name">
                                     </div><!-- col-sm-10 -->
                                 </div><!-- form-group -->
-                                <div class="form-group">
+                                <div class="form-group d-flex align-items-center">
                                     <label for="chat-message" class="col-sm-2 control-label text-white text-center">Message</label>
-                                    <div class="col-sm-8 ms-5">
+                                    <div class="col-sm-8 ms-5 p-1">
                                         <div class="input-group">
                                             <input type="text" placeholder="Enter a message, then press enter"
                                                 class="form-control opacity" id="chat-message" rows="2" autocomplete="off" required>
                                             <span class="input-group-btn">
-                                                <button id="chat-submit" class="btn bg-grey text-white" type="submit">Chat</button>
+                                                <button id="chat-submit" class="btn bg-dark text-white" type="submit">Chat</button>
                                             </span>
                                         </div><!-- input-group -->
                                     </div><!-- col-sm-10 -->
                                 </div><!-- form-group -->
                             </form>
                             <div class="panel panel-default">
-                                <div class="panel-body chat-display">
+                                <div class="panel-body chat-display overflow-auto">
                                     <div class="text-muted chat-text "></div>
                                 </div><!-- panel-body -->
                             </div><!-- panel-default -->

@@ -27,6 +27,9 @@ body::-webkit-scrollbar {
 .bg-grey{
     background-color: #49494981;
 }
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.815);
+}
 
 /* font colors */
 .text-black{
@@ -132,10 +135,17 @@ a:hover {
 }
 
 
-.submitbtn:focus{
-    outline: none;
-    box-shadow: none;
-    color: green;
+.submitbtn:focus,.submitbtn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.form-control:focus,.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.chat-submit:focus,.chat-submit:active {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .feedbackcontainer{
@@ -146,8 +156,10 @@ a:hover {
 }
 
 .chat-display{
-    height: 100%;
-    width: 80%;
+    height: 15rem;
+    padding-left: 2%;
+    margin-top: 1rem;
+    width: 58%;
     background-color: rgba(141, 141, 141, 0.301);
     border-radius: 10px;
 }

@@ -12,7 +12,7 @@ socket.on('updateMessage', (data) =>{
         newMessage.className = "text-white"
     }
     else{
-        newMessage.className = "text-grey"
+        newMessage.className = "text-black"
     }
     newMessage.innerHTML = `<strong>${data.username}</strong>: ${data.message}`
     chatDisplay.insertBefore(newMessage, chatDisplay.firstChild)
